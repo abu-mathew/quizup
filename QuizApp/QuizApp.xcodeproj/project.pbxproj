@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55109DC118DBF8C500EDFC3E /* background-texture-smooth-golden-surface.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DB918DBF8C500EDFC3E /* background-texture-smooth-golden-surface.png */; };
+		55109DC218DBF8C500EDFC3E /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBA18DBF8C500EDFC3E /* background.jpg */; };
+		55109DC318DBF8C500EDFC3E /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBB18DBF8C500EDFC3E /* bg.png */; };
+		55109DC418DBF8C500EDFC3E /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBC18DBF8C500EDFC3E /* home_icon.png */; };
+		55109DC518DBF8C500EDFC3E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBD18DBF8C500EDFC3E /* icon.png */; };
+		55109DC618DBF8C500EDFC3E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBE18DBF8C500EDFC3E /* icon@2x.png */; };
+		55109DC718DBF8C500EDFC3E /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55109DBF18DBF8C500EDFC3E /* images.jpg */; };
+		55109DC818DBF8C500EDFC3E /* quiz_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DC018DBF8C500EDFC3E /* quiz_icon.png */; };
+		55109DCF18DC04CC00EDFC3E /* QAUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55109DCE18DC04CC00EDFC3E /* QAUtility.m */; };
+		55109DD818DC0D0A00EDFC3E /* QAQuestionCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55109DD618DC0D0A00EDFC3E /* QAQuestionCustomCell.m */; };
+		55109DD918DC0D0A00EDFC3E /* QAQuestionCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55109DD718DC0D0A00EDFC3E /* QAQuestionCustomCell.xib */; };
+		55109DE318DC33F100EDFC3E /* QAProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55109DE218DC33F100EDFC3E /* QAProgressBarView.m */; };
+		55109DE918DC342F00EDFC3E /* progress-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DE518DC342F00EDFC3E /* progress-bg.png */; };
+		55109DEA18DC342F00EDFC3E /* progress-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DE618DC342F00EDFC3E /* progress-bg@2x.png */; };
+		55109DEB18DC342F00EDFC3E /* progress-fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DE718DC342F00EDFC3E /* progress-fg.png */; };
+		55109DEC18DC342F00EDFC3E /* progress-fg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55109DE818DC342F00EDFC3E /* progress-fg@2x.png */; };
+		5529B5A218D811790095E373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A118D811790095E373 /* Foundation.framework */; };
+		5529B5A418D811790095E373 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A318D811790095E373 /* CoreGraphics.framework */; };
+		5529B5A618D811790095E373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A518D811790095E373 /* UIKit.framework */; };
+		5529B5A818D811790095E373 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A718D811790095E373 /* CoreData.framework */; };
+		5529B5AE18D811790095E373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5AC18D811790095E373 /* InfoPlist.strings */; };
+		5529B5B018D811790095E373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5AF18D811790095E373 /* main.m */; };
+		5529B5B418D811790095E373 /* QAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5B318D811790095E373 /* QAAppDelegate.m */; };
+		5529B5B718D811790095E373 /* QuizApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5B518D811790095E373 /* QuizApp.xcdatamodeld */; };
+		5529B5B918D811790095E373 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5B818D811790095E373 /* Images.xcassets */; };
+		5529B5C018D811790095E373 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5BF18D811790095E373 /* XCTest.framework */; };
+		5529B5C118D811790095E373 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A118D811790095E373 /* Foundation.framework */; };
+		5529B5C218D811790095E373 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A518D811790095E373 /* UIKit.framework */; };
+		5529B5C318D811790095E373 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5529B5A718D811790095E373 /* CoreData.framework */; };
+		5529B5CB18D811790095E373 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5C918D811790095E373 /* InfoPlist.strings */; };
+		5529B5CD18D811790095E373 /* QuizAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5CC18D811790095E373 /* QuizAppTests.m */; };
+		5529B5DF18D812B00095E373 /* QAHomeScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5DD18D812B00095E373 /* QAHomeScreenViewController.m */; };
+		5529B5E018D812B00095E373 /* QAHomeScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5DE18D812B00095E373 /* QAHomeScreenViewController.xib */; };
+		5529B5E418D813EC0095E373 /* QALeaderboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5E218D813EC0095E373 /* QALeaderboard.m */; };
+		5529B5E518D813EC0095E373 /* QALeaderboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5E318D813EC0095E373 /* QALeaderboard.xib */; };
+		5529B5E918D816FC0095E373 /* QALeaderboardCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5E718D816FC0095E373 /* QALeaderboardCustomCell.m */; };
+		5529B5EA18D816FC0095E373 /* QALeaderboardCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5E818D816FC0095E373 /* QALeaderboardCustomCell.xib */; };
+		5529B5EE18D81B260095E373 /* QALaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5EC18D81B260095E373 /* QALaunchViewController.m */; };
+		5529B5EF18D81B260095E373 /* QALaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5ED18D81B260095E373 /* QALaunchViewController.xib */; };
+		5529B5F318D81D610095E373 /* QACategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5F118D81D610095E373 /* QACategoryViewController.m */; };
+		5529B5F418D81D610095E373 /* QACategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5F218D81D610095E373 /* QACategoryViewController.xib */; };
+		5529B5F818D820850095E373 /* QAQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5F618D820850095E373 /* QAQuestionsViewController.m */; };
+		5529B5F918D820850095E373 /* QAQuestionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5529B5F718D820850095E373 /* QAQuestionsViewController.xib */; };
+		5529B5FE18D8265A0095E373 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B5FD18D8265A0095E373 /* RadioButton.m */; };
+		5529B60518D827270095E373 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5529B60118D827270095E373 /* checked.png */; };
+		5529B60618D827270095E373 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5529B60218D827270095E373 /* checked@2x.png */; };
+		5529B60718D827270095E373 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 5529B60318D827270095E373 /* unchecked.png */; };
+		5529B60818D827270095E373 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5529B60418D827270095E373 /* unchecked@2x.png */; };
+		5529B60F18D844260095E373 /* UILabel+dynamicHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B60E18D844260095E373 /* UILabel+dynamicHeight.m */; };
+		5529B61318D84D210095E373 /* InsetUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5529B61218D84D210095E373 /* InsetUILabel.m */; };
+		552C597A18E00C9100DBDF7C /* Questions.m in Sources */ = {isa = PBXBuildFile; fileRef = 552C597918E00C9100DBDF7C /* Questions.m */; };
+		552C598418E0124B00DBDF7C /* cat_gk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C597C18E0124B00DBDF7C /* cat_gk@2x.png */; };
+		552C598518E0124B00DBDF7C /* cat_india@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C597D18E0124B00DBDF7C /* cat_india@2x.png */; };
+		552C598618E0124B00DBDF7C /* cat_infy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C597E18E0124B00DBDF7C /* cat_infy@2x.png */; };
+		552C598718E0124B00DBDF7C /* cat_mobl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C597F18E0124B00DBDF7C /* cat_mobl@2x.png */; };
+		552C598818E0124B00DBDF7C /* cat_movies@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C598018E0124B00DBDF7C /* cat_movies@2x.png */; };
+		552C598918E0124B00DBDF7C /* cat_music@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C598118E0124B00DBDF7C /* cat_music@2x.png */; };
+		552C598A18E0124B00DBDF7C /* cat_puzzle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C598218E0124B00DBDF7C /* cat_puzzle@2x.png */; };
+		552C598B18E0124B00DBDF7C /* cat_sports@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 552C598318E0124B00DBDF7C /* cat_sports@2x.png */; };
+		552EAA7218E1977A00E37DAF /* QAResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 552EAA7018E1977A00E37DAF /* QAResultViewController.m */; };
+		552EAA7318E1977A00E37DAF /* QAResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552EAA7118E1977A00E37DAF /* QAResultViewController.xib */; };
+		5538D67718DAD82000502C1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5538D67618DAD82000502C1C /* QuartzCore.framework */; };
+		5538D67918DAD82600502C1C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5538D67818DAD82600502C1C /* AVFoundation.framework */; };
+		5538D68118DAD84C00502C1C /* BackgroundTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538D67C18DAD84C00502C1C /* BackgroundTimer.m */; };
+		5538D68218DAD84C00502C1C /* CenterPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538D67E18DAD84C00502C1C /* CenterPointer.m */; };
+		5538D68318DAD84C00502C1C /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5538D68018DAD84C00502C1C /* Wheel.m */; };
+		554FFACF18DAEDD500376B91 /* QASpinnerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FFACE18DAEDD500376B91 /* QASpinnerView.m */; };
+		554FFAD518DB09D200376B91 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 554FFAD418DB09D200376B91 /* OrderedDictionary.m */; };
+		556D751018DC45B1006ABDEA /* AMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D750D18DC45B1006ABDEA /* AMProgressView.m */; };
+		556D751118DC45B1006ABDEA /* AMProgressViewGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 556D750F18DC45B1006ABDEA /* AMProgressViewGradient.m */; };
+		556D752318DC54BA006ABDEA /* Landing_v2_dev.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 556D751318DC54BA006ABDEA /* Landing_v2_dev.pdf */; };
+		556D752418DC54BA006ABDEA /* App_Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D751518DC54BA006ABDEA /* App_Logo@2x.png */; };
+		556D752518DC54BA006ABDEA /* Circle_Graphics@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D751618DC54BA006ABDEA /* Circle_Graphics@2x.png */; };
+		556D752618DC54BA006ABDEA /* Mobility_Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D751718DC54BA006ABDEA /* Mobility_Logo@2x.png */; };
+		556D752718DC54BA006ABDEA /* Spin_Graphics.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D751818DC54BA006ABDEA /* Spin_Graphics.png */; };
+		556D753E18DC60E1006ABDEA /* Home_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D753118DC60E1006ABDEA /* Home_Icon@2x.png */; };
+		556D753F18DC60E1006ABDEA /* Infosys_logo_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 556D753218DC60E1006ABDEA /* Infosys_logo_white@2x.png */; };
+		556D754018DC60E1006ABDEA /* Landing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753318DC60E1006ABDEA /* Landing.jpg */; };
+		556D754118DC60E1006ABDEA /* Quiz_Completed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753418DC60E1006ABDEA /* Quiz_Completed.jpg */; };
+		556D754218DC60E1006ABDEA /* Quiz_Correct.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753518DC60E1006ABDEA /* Quiz_Correct.jpg */; };
+		556D754318DC60E1006ABDEA /* Quiz_Dev.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 556D753618DC60E1006ABDEA /* Quiz_Dev.pdf */; };
+		556D754418DC60E1006ABDEA /* Quiz_Incorrect.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753718DC60E1006ABDEA /* Quiz_Incorrect.jpg */; };
+		556D754518DC60E1006ABDEA /* Quiz_Selection.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753818DC60E1006ABDEA /* Quiz_Selection.jpg */; };
+		556D754618DC60E1006ABDEA /* Quiz_Start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753918DC60E1006ABDEA /* Quiz_Start.jpg */; };
+		556D754718DC60E1006ABDEA /* Quiz_Timeout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753A18DC60E1006ABDEA /* Quiz_Timeout.jpg */; };
+		556D754818DC60E1006ABDEA /* Quiz_Timer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753B18DC60E1006ABDEA /* Quiz_Timer.jpg */; };
+		556D754918DC60E1006ABDEA /* Wheel_dev.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 556D753C18DC60E1006ABDEA /* Wheel_dev.pdf */; };
+		556D754A18DC60E1006ABDEA /* Wheel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556D753D18DC60E1006ABDEA /* Wheel.jpg */; };
+		55726C2118D9D5900071F62C /* QuizApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 55726C2018D9D5900071F62C /* QuizApp.sqlite */; };
+		5576E4FB18D98E29007D4E21 /* QACoredataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576E4FA18D98E29007D4E21 /* QACoredataManager.m */; };
+		5576E4FF18D9918D007D4E21 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576E4FE18D9918D007D4E21 /* Categories.m */; };
+		5576E50218D9918E007D4E21 /* QuestionChoices.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576E50118D9918E007D4E21 /* QuestionChoices.m */; };
+		5576E50518D9918E007D4E21 /* PlayerQuestionAnswers.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576E50418D9918E007D4E21 /* PlayerQuestionAnswers.m */; };
+		5576E50818D9918E007D4E21 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 5576E50718D9918E007D4E21 /* Player.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5529B5C418D811790095E373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5529B59618D811790095E373 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5529B59D18D811790095E373;
+			remoteInfo = QuizApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55109DB918DBF8C500EDFC3E /* background-texture-smooth-golden-surface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-texture-smooth-golden-surface.png"; sourceTree = "<group>"; };
+		55109DBA18DBF8C500EDFC3E /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		55109DBB18DBF8C500EDFC3E /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		55109DBC18DBF8C500EDFC3E /* home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon.png; sourceTree = "<group>"; };
+		55109DBD18DBF8C500EDFC3E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		55109DBE18DBF8C500EDFC3E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		55109DBF18DBF8C500EDFC3E /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		55109DC018DBF8C500EDFC3E /* quiz_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz_icon.png; sourceTree = "<group>"; };
+		55109DCD18DC04CC00EDFC3E /* QAUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAUtility.h; sourceTree = "<group>"; };
+		55109DCE18DC04CC00EDFC3E /* QAUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAUtility.m; sourceTree = "<group>"; };
+		55109DD518DC0D0A00EDFC3E /* QAQuestionCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QAQuestionCustomCell.h; path = QuizApp/QuestionsScreen/QAQuestionCustomCell.h; sourceTree = SOURCE_ROOT; };
+		55109DD618DC0D0A00EDFC3E /* QAQuestionCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QAQuestionCustomCell.m; path = QuizApp/QuestionsScreen/QAQuestionCustomCell.m; sourceTree = SOURCE_ROOT; };
+		55109DD718DC0D0A00EDFC3E /* QAQuestionCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QAQuestionCustomCell.xib; path = QuizApp/QuestionsScreen/QAQuestionCustomCell.xib; sourceTree = SOURCE_ROOT; };
+		55109DE118DC33F100EDFC3E /* QAProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAProgressBarView.h; sourceTree = "<group>"; };
+		55109DE218DC33F100EDFC3E /* QAProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAProgressBarView.m; sourceTree = "<group>"; };
+		55109DE518DC342F00EDFC3E /* progress-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bg.png"; sourceTree = "<group>"; };
+		55109DE618DC342F00EDFC3E /* progress-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bg@2x.png"; sourceTree = "<group>"; };
+		55109DE718DC342F00EDFC3E /* progress-fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-fg.png"; sourceTree = "<group>"; };
+		55109DE818DC342F00EDFC3E /* progress-fg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-fg@2x.png"; sourceTree = "<group>"; };
+		5529B59E18D811790095E373 /* QuizApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5529B5A118D811790095E373 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5529B5A318D811790095E373 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5529B5A518D811790095E373 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5529B5A718D811790095E373 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5529B5AB18D811790095E373 /* QuizApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizApp-Info.plist"; sourceTree = "<group>"; };
+		5529B5AD18D811790095E373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5529B5AF18D811790095E373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5529B5B118D811790095E373 /* QuizApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuizApp-Prefix.pch"; sourceTree = "<group>"; };
+		5529B5B218D811790095E373 /* QAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QAAppDelegate.h; sourceTree = "<group>"; };
+		5529B5B318D811790095E373 /* QAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QAAppDelegate.m; sourceTree = "<group>"; };
+		5529B5B618D811790095E373 /* QuizApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuizApp.xcdatamodel; sourceTree = "<group>"; };
+		5529B5B818D811790095E373 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5529B5BE18D811790095E373 /* QuizAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5529B5BF18D811790095E373 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5529B5C818D811790095E373 /* QuizAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizAppTests-Info.plist"; sourceTree = "<group>"; };
+		5529B5CA18D811790095E373 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5529B5CC18D811790095E373 /* QuizAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizAppTests.m; sourceTree = "<group>"; };
+		5529B5DC18D812B00095E373 /* QAHomeScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAHomeScreenViewController.h; sourceTree = "<group>"; };
+		5529B5DD18D812B00095E373 /* QAHomeScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAHomeScreenViewController.m; sourceTree = "<group>"; };
+		5529B5DE18D812B00095E373 /* QAHomeScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHomeScreenViewController.xib; sourceTree = "<group>"; };
+		5529B5E118D813EC0095E373 /* QALeaderboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QALeaderboard.h; sourceTree = "<group>"; };
+		5529B5E218D813EC0095E373 /* QALeaderboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QALeaderboard.m; sourceTree = "<group>"; };
+		5529B5E318D813EC0095E373 /* QALeaderboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QALeaderboard.xib; sourceTree = "<group>"; };
+		5529B5E618D816FC0095E373 /* QALeaderboardCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QALeaderboardCustomCell.h; sourceTree = "<group>"; };
+		5529B5E718D816FC0095E373 /* QALeaderboardCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QALeaderboardCustomCell.m; sourceTree = "<group>"; };
+		5529B5E818D816FC0095E373 /* QALeaderboardCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QALeaderboardCustomCell.xib; sourceTree = "<group>"; };
+		5529B5EB18D81B260095E373 /* QALaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QALaunchViewController.h; sourceTree = "<group>"; };
+		5529B5EC18D81B260095E373 /* QALaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QALaunchViewController.m; sourceTree = "<group>"; };
+		5529B5ED18D81B260095E373 /* QALaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QALaunchViewController.xib; sourceTree = "<group>"; };
+		5529B5F018D81D610095E373 /* QACategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACategoryViewController.h; sourceTree = "<group>"; };
+		5529B5F118D81D610095E373 /* QACategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACategoryViewController.m; sourceTree = "<group>"; };
+		5529B5F218D81D610095E373 /* QACategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QACategoryViewController.xib; sourceTree = "<group>"; };
+		5529B5F518D820850095E373 /* QAQuestionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QAQuestionsViewController.h; path = QuizApp/QuestionsScreen/QAQuestionsViewController.h; sourceTree = SOURCE_ROOT; };
+		5529B5F618D820850095E373 /* QAQuestionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QAQuestionsViewController.m; path = QuizApp/QuestionsScreen/QAQuestionsViewController.m; sourceTree = SOURCE_ROOT; };
+		5529B5F718D820850095E373 /* QAQuestionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QAQuestionsViewController.xib; path = QuizApp/QuestionsScreen/QAQuestionsViewController.xib; sourceTree = SOURCE_ROOT; };
+		5529B5FC18D8265A0095E373 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		5529B5FD18D8265A0095E373 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		5529B60118D827270095E373 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		5529B60218D827270095E373 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		5529B60318D827270095E373 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		5529B60418D827270095E373 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		5529B60918D83E4C0095E373 /* QAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QAConstants.h; path = QuizApp/QAConstants.h; sourceTree = "<group>"; };
+		5529B60D18D844260095E373 /* UILabel+dynamicHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+dynamicHeight.h"; sourceTree = "<group>"; };
+		5529B60E18D844260095E373 /* UILabel+dynamicHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+dynamicHeight.m"; sourceTree = "<group>"; };
+		5529B61118D84D210095E373 /* InsetUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetUILabel.h; sourceTree = "<group>"; };
+		5529B61218D84D210095E373 /* InsetUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetUILabel.m; sourceTree = "<group>"; };
+		552C597818E00C9100DBDF7C /* Questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questions.h; sourceTree = "<group>"; };
+		552C597918E00C9100DBDF7C /* Questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questions.m; sourceTree = "<group>"; };
+		552C597C18E0124B00DBDF7C /* cat_gk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_gk@2x.png"; sourceTree = "<group>"; };
+		552C597D18E0124B00DBDF7C /* cat_india@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_india@2x.png"; sourceTree = "<group>"; };
+		552C597E18E0124B00DBDF7C /* cat_infy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_infy@2x.png"; sourceTree = "<group>"; };
+		552C597F18E0124B00DBDF7C /* cat_mobl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_mobl@2x.png"; sourceTree = "<group>"; };
+		552C598018E0124B00DBDF7C /* cat_movies@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_movies@2x.png"; sourceTree = "<group>"; };
+		552C598118E0124B00DBDF7C /* cat_music@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_music@2x.png"; sourceTree = "<group>"; };
+		552C598218E0124B00DBDF7C /* cat_puzzle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_puzzle@2x.png"; sourceTree = "<group>"; };
+		552C598318E0124B00DBDF7C /* cat_sports@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cat_sports@2x.png"; sourceTree = "<group>"; };
+		552EAA6F18E1977A00E37DAF /* QAResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAResultViewController.h; sourceTree = "<group>"; };
+		552EAA7018E1977A00E37DAF /* QAResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAResultViewController.m; sourceTree = "<group>"; };
+		552EAA7118E1977A00E37DAF /* QAResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAResultViewController.xib; sourceTree = "<group>"; };
+		5538D67618DAD82000502C1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5538D67818DAD82600502C1C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5538D67B18DAD84C00502C1C /* BackgroundTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTimer.h; sourceTree = "<group>"; };
+		5538D67C18DAD84C00502C1C /* BackgroundTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTimer.m; sourceTree = "<group>"; };
+		5538D67D18DAD84C00502C1C /* CenterPointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPointer.h; sourceTree = "<group>"; };
+		5538D67E18DAD84C00502C1C /* CenterPointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPointer.m; sourceTree = "<group>"; };
+		5538D67F18DAD84C00502C1C /* Wheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
+		5538D68018DAD84C00502C1C /* Wheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
+		554FFACD18DAEDD500376B91 /* QASpinnerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QASpinnerView.h; sourceTree = "<group>"; };
+		554FFACE18DAEDD500376B91 /* QASpinnerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QASpinnerView.m; sourceTree = "<group>"; };
+		554FFAD318DB09D200376B91 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		554FFAD418DB09D200376B91 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		556D750C18DC45B1006ABDEA /* AMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProgressView.h; sourceTree = "<group>"; };
+		556D750D18DC45B1006ABDEA /* AMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProgressView.m; sourceTree = "<group>"; };
+		556D750E18DC45B1006ABDEA /* AMProgressViewGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMProgressViewGradient.h; sourceTree = "<group>"; };
+		556D750F18DC45B1006ABDEA /* AMProgressViewGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMProgressViewGradient.m; sourceTree = "<group>"; };
+		556D751318DC54BA006ABDEA /* Landing_v2_dev.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Landing_v2_dev.pdf; sourceTree = "<group>"; };
+		556D751518DC54BA006ABDEA /* App_Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App_Logo@2x.png"; sourceTree = "<group>"; };
+		556D751618DC54BA006ABDEA /* Circle_Graphics@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle_Graphics@2x.png"; sourceTree = "<group>"; };
+		556D751718DC54BA006ABDEA /* Mobility_Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mobility_Logo@2x.png"; sourceTree = "<group>"; };
+		556D751818DC54BA006ABDEA /* Spin_Graphics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spin_Graphics.png; sourceTree = "<group>"; };
+		556D753118DC60E1006ABDEA /* Home_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home_Icon@2x.png"; sourceTree = "<group>"; };
+		556D753218DC60E1006ABDEA /* Infosys_logo_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Infosys_logo_white@2x.png"; sourceTree = "<group>"; };
+		556D753318DC60E1006ABDEA /* Landing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Landing.jpg; sourceTree = "<group>"; };
+		556D753418DC60E1006ABDEA /* Quiz_Completed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Completed.jpg; sourceTree = "<group>"; };
+		556D753518DC60E1006ABDEA /* Quiz_Correct.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Correct.jpg; sourceTree = "<group>"; };
+		556D753618DC60E1006ABDEA /* Quiz_Dev.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Quiz_Dev.pdf; sourceTree = "<group>"; };
+		556D753718DC60E1006ABDEA /* Quiz_Incorrect.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Incorrect.jpg; sourceTree = "<group>"; };
+		556D753818DC60E1006ABDEA /* Quiz_Selection.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Selection.jpg; sourceTree = "<group>"; };
+		556D753918DC60E1006ABDEA /* Quiz_Start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Start.jpg; sourceTree = "<group>"; };
+		556D753A18DC60E1006ABDEA /* Quiz_Timeout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Timeout.jpg; sourceTree = "<group>"; };
+		556D753B18DC60E1006ABDEA /* Quiz_Timer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quiz_Timer.jpg; sourceTree = "<group>"; };
+		556D753C18DC60E1006ABDEA /* Wheel_dev.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Wheel_dev.pdf; sourceTree = "<group>"; };
+		556D753D18DC60E1006ABDEA /* Wheel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Wheel.jpg; sourceTree = "<group>"; };
+		55726C2018D9D5900071F62C /* QuizApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = QuizApp.sqlite; sourceTree = "<group>"; };
+		5576E4F918D98E29007D4E21 /* QACoredataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QACoredataManager.h; sourceTree = "<group>"; };
+		5576E4FA18D98E29007D4E21 /* QACoredataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QACoredataManager.m; sourceTree = "<group>"; };
+		5576E4FD18D9918D007D4E21 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		5576E4FE18D9918D007D4E21 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		5576E50018D9918E007D4E21 /* QuestionChoices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionChoices.h; sourceTree = "<group>"; };
+		5576E50118D9918E007D4E21 /* QuestionChoices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionChoices.m; sourceTree = "<group>"; };
+		5576E50318D9918E007D4E21 /* PlayerQuestionAnswers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerQuestionAnswers.h; sourceTree = "<group>"; };
+		5576E50418D9918E007D4E21 /* PlayerQuestionAnswers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerQuestionAnswers.m; sourceTree = "<group>"; };
+		5576E50618D9918E007D4E21 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		5576E50718D9918E007D4E21 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5529B59B18D811790095E373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5538D67918DAD82600502C1C /* AVFoundation.framework in Frameworks */,
+				5538D67718DAD82000502C1C /* QuartzCore.framework in Frameworks */,
+				5529B5A418D811790095E373 /* CoreGraphics.framework in Frameworks */,
+				5529B5A818D811790095E373 /* CoreData.framework in Frameworks */,
+				5529B5A618D811790095E373 /* UIKit.framework in Frameworks */,
+				5529B5A218D811790095E373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5529B5BB18D811790095E373 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5529B5C018D811790095E373 /* XCTest.framework in Frameworks */,
+				5529B5C318D811790095E373 /* CoreData.framework in Frameworks */,
+				5529B5C218D811790095E373 /* UIKit.framework in Frameworks */,
+				5529B5C118D811790095E373 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55109DCC18DC04CC00EDFC3E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				55109DCD18DC04CC00EDFC3E /* QAUtility.h */,
+				55109DCE18DC04CC00EDFC3E /* QAUtility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		55109DDA18DC1D6400EDFC3E /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				55109DE118DC33F100EDFC3E /* QAProgressBarView.h */,
+				55109DE218DC33F100EDFC3E /* QAProgressBarView.m */,
+			);
+			path = ProgressView;
+			sourceTree = "<group>";
+		};
+		55109DE418DC342F00EDFC3E /* ProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				55109DE518DC342F00EDFC3E /* progress-bg.png */,
+				55109DE618DC342F00EDFC3E /* progress-bg@2x.png */,
+				55109DE718DC342F00EDFC3E /* progress-fg.png */,
+				55109DE818DC342F00EDFC3E /* progress-fg@2x.png */,
+			);
+			path = ProgressBar;
+			sourceTree = "<group>";
+		};
+		5529B59518D811790095E373 = {
+			isa = PBXGroup;
+			children = (
+				5529B60918D83E4C0095E373 /* QAConstants.h */,
+				5529B5A918D811790095E373 /* QuizApp */,
+				5529B5C618D811790095E373 /* QuizAppTests */,
+				5529B5A018D811790095E373 /* Frameworks */,
+				5529B59F18D811790095E373 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5529B59F18D811790095E373 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5529B59E18D811790095E373 /* QuizApp.app */,
+				5529B5BE18D811790095E373 /* QuizAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5529B5A018D811790095E373 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5538D67818DAD82600502C1C /* AVFoundation.framework */,
+				5538D67618DAD82000502C1C /* QuartzCore.framework */,
+				5529B5A118D811790095E373 /* Foundation.framework */,
+				5529B5A318D811790095E373 /* CoreGraphics.framework */,
+				5529B5A518D811790095E373 /* UIKit.framework */,
+				5529B5A718D811790095E373 /* CoreData.framework */,
+				5529B5BF18D811790095E373 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5529B5A918D811790095E373 /* QuizApp */ = {
+			isa = PBXGroup;
+			children = (
+				5576E4FC18D99176007D4E21 /* DataModelClasses */,
+				5576E4F718D98E13007D4E21 /* Manager */,
+				5529B5FA18D8265A0095E373 /* Utilities */,
+				5529B5D618D812930095E373 /* AlertsScreen */,
+				5529B5D718D812930095E373 /* CategorySelectionScreen */,
+				5529B5D818D812930095E373 /* HomeScreen */,
+				5529B5D918D812930095E373 /* Leaderboard */,
+				5529B5DA18D812930095E373 /* QuestionsScreen */,
+				5529B5DB18D812930095E373 /* QuizLaunchScreen */,
+				5529B5B218D811790095E373 /* QAAppDelegate.h */,
+				5529B5B318D811790095E373 /* QAAppDelegate.m */,
+				5529B5B818D811790095E373 /* Images.xcassets */,
+				5529B5B518D811790095E373 /* QuizApp.xcdatamodeld */,
+				5529B5AA18D811790095E373 /* Supporting Files */,
+			);
+			path = QuizApp;
+			sourceTree = "<group>";
+		};
+		5529B5AA18D811790095E373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5FF18D827270095E373 /* Images */,
+				5529B5AB18D811790095E373 /* QuizApp-Info.plist */,
+				55726C2018D9D5900071F62C /* QuizApp.sqlite */,
+				5529B5AC18D811790095E373 /* InfoPlist.strings */,
+				5529B5AF18D811790095E373 /* main.m */,
+				5529B5B118D811790095E373 /* QuizApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5529B5C618D811790095E373 /* QuizAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5CC18D811790095E373 /* QuizAppTests.m */,
+				5529B5C718D811790095E373 /* Supporting Files */,
+			);
+			path = QuizAppTests;
+			sourceTree = "<group>";
+		};
+		5529B5C718D811790095E373 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5C818D811790095E373 /* QuizAppTests-Info.plist */,
+				5529B5C918D811790095E373 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5529B5D618D812930095E373 /* AlertsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				552EAA6F18E1977A00E37DAF /* QAResultViewController.h */,
+				552EAA7018E1977A00E37DAF /* QAResultViewController.m */,
+				552EAA7118E1977A00E37DAF /* QAResultViewController.xib */,
+			);
+			path = AlertsScreen;
+			sourceTree = "<group>";
+		};
+		5529B5D718D812930095E373 /* CategorySelectionScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5F018D81D610095E373 /* QACategoryViewController.h */,
+				5529B5F118D81D610095E373 /* QACategoryViewController.m */,
+				5529B5F218D81D610095E373 /* QACategoryViewController.xib */,
+			);
+			path = CategorySelectionScreen;
+			sourceTree = "<group>";
+		};
+		5529B5D818D812930095E373 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5DC18D812B00095E373 /* QAHomeScreenViewController.h */,
+				5529B5DD18D812B00095E373 /* QAHomeScreenViewController.m */,
+				5529B5DE18D812B00095E373 /* QAHomeScreenViewController.xib */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		5529B5D918D812930095E373 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5E118D813EC0095E373 /* QALeaderboard.h */,
+				5529B5E218D813EC0095E373 /* QALeaderboard.m */,
+				5529B5E318D813EC0095E373 /* QALeaderboard.xib */,
+				5529B5E618D816FC0095E373 /* QALeaderboardCustomCell.h */,
+				5529B5E718D816FC0095E373 /* QALeaderboardCustomCell.m */,
+				5529B5E818D816FC0095E373 /* QALeaderboardCustomCell.xib */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		5529B5DA18D812930095E373 /* QuestionsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5F518D820850095E373 /* QAQuestionsViewController.h */,
+				5529B5F618D820850095E373 /* QAQuestionsViewController.m */,
+				5529B5F718D820850095E373 /* QAQuestionsViewController.xib */,
+				55109DD518DC0D0A00EDFC3E /* QAQuestionCustomCell.h */,
+				55109DD618DC0D0A00EDFC3E /* QAQuestionCustomCell.m */,
+				55109DD718DC0D0A00EDFC3E /* QAQuestionCustomCell.xib */,
+			);
+			name = QuestionsScreen;
+			path = QUestionsScreen;
+			sourceTree = "<group>";
+		};
+		5529B5DB18D812930095E373 /* QuizLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5EB18D81B260095E373 /* QALaunchViewController.h */,
+				5529B5EC18D81B260095E373 /* QALaunchViewController.m */,
+				5529B5ED18D81B260095E373 /* QALaunchViewController.xib */,
+			);
+			path = QuizLaunchScreen;
+			sourceTree = "<group>";
+		};
+		5529B5FA18D8265A0095E373 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				556D750B18DC45B1006ABDEA /* AMProgressView */,
+				55109DDA18DC1D6400EDFC3E /* ProgressView */,
+				55109DCC18DC04CC00EDFC3E /* Utility */,
+				554FFAD218DB09D200376B91 /* OrderedDictionary */,
+				554FFACC18DAEDD500376B91 /* SpinnerView */,
+				5538D67A18DAD84C00502C1C /* BlowWheel */,
+				5529B61018D84D210095E373 /* InsetUILabel */,
+				5529B60C18D844030095E373 /* UILabel+DynamicHeight */,
+				5529B5FB18D8265A0095E373 /* RadioButtons */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5529B5FB18D8265A0095E373 /* RadioButtons */ = {
+			isa = PBXGroup;
+			children = (
+				5529B5FC18D8265A0095E373 /* RadioButton.h */,
+				5529B5FD18D8265A0095E373 /* RadioButton.m */,
+			);
+			path = RadioButtons;
+			sourceTree = "<group>";
+		};
+		5529B5FF18D827270095E373 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55768FF218DB2C25000A6599 /* common */,
+				5538D68418DADA1B00502C1C /* blow_Wheel */,
+				5529B60018D827270095E373 /* radio-res-ios */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5529B60018D827270095E373 /* radio-res-ios */ = {
+			isa = PBXGroup;
+			children = (
+				5529B60118D827270095E373 /* checked.png */,
+				5529B60218D827270095E373 /* checked@2x.png */,
+				5529B60318D827270095E373 /* unchecked.png */,
+				5529B60418D827270095E373 /* unchecked@2x.png */,
+			);
+			path = "radio-res-ios";
+			sourceTree = "<group>";
+		};
+		5529B60C18D844030095E373 /* UILabel+DynamicHeight */ = {
+			isa = PBXGroup;
+			children = (
+				5529B60D18D844260095E373 /* UILabel+dynamicHeight.h */,
+				5529B60E18D844260095E373 /* UILabel+dynamicHeight.m */,
+			);
+			path = "UILabel+DynamicHeight";
+			sourceTree = "<group>";
+		};
+		5529B61018D84D210095E373 /* InsetUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				5529B61118D84D210095E373 /* InsetUILabel.h */,
+				5529B61218D84D210095E373 /* InsetUILabel.m */,
+			);
+			path = InsetUILabel;
+			sourceTree = "<group>";
+		};
+		552C597B18E0124B00DBDF7C /* WhiteIcons */ = {
+			isa = PBXGroup;
+			children = (
+				552C597C18E0124B00DBDF7C /* cat_gk@2x.png */,
+				552C597D18E0124B00DBDF7C /* cat_india@2x.png */,
+				552C597E18E0124B00DBDF7C /* cat_infy@2x.png */,
+				552C597F18E0124B00DBDF7C /* cat_mobl@2x.png */,
+				552C598018E0124B00DBDF7C /* cat_movies@2x.png */,
+				552C598118E0124B00DBDF7C /* cat_music@2x.png */,
+				552C598218E0124B00DBDF7C /* cat_puzzle@2x.png */,
+				552C598318E0124B00DBDF7C /* cat_sports@2x.png */,
+			);
+			path = WhiteIcons;
+			sourceTree = "<group>";
+		};
+		5538D67A18DAD84C00502C1C /* BlowWheel */ = {
+			isa = PBXGroup;
+			children = (
+				5538D67B18DAD84C00502C1C /* BackgroundTimer.h */,
+				5538D67C18DAD84C00502C1C /* BackgroundTimer.m */,
+				5538D67D18DAD84C00502C1C /* CenterPointer.h */,
+				5538D67E18DAD84C00502C1C /* CenterPointer.m */,
+				5538D67F18DAD84C00502C1C /* Wheel.h */,
+				5538D68018DAD84C00502C1C /* Wheel.m */,
+			);
+			path = BlowWheel;
+			sourceTree = "<group>";
+		};
+		5538D68418DADA1B00502C1C /* blow_Wheel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = blow_Wheel;
+			sourceTree = "<group>";
+		};
+		554FFACC18DAEDD500376B91 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				554FFACD18DAEDD500376B91 /* QASpinnerView.h */,
+				554FFACE18DAEDD500376B91 /* QASpinnerView.m */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
+		554FFAD218DB09D200376B91 /* OrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				554FFAD318DB09D200376B91 /* OrderedDictionary.h */,
+				554FFAD418DB09D200376B91 /* OrderedDictionary.m */,
+			);
+			path = OrderedDictionary;
+			sourceTree = "<group>";
+		};
+		556D750B18DC45B1006ABDEA /* AMProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				556D750C18DC45B1006ABDEA /* AMProgressView.h */,
+				556D750D18DC45B1006ABDEA /* AMProgressView.m */,
+				556D750E18DC45B1006ABDEA /* AMProgressViewGradient.h */,
+				556D750F18DC45B1006ABDEA /* AMProgressViewGradient.m */,
+			);
+			path = AMProgressView;
+			sourceTree = "<group>";
+		};
+		556D751218DC54BA006ABDEA /* Landing_v2_dev */ = {
+			isa = PBXGroup;
+			children = (
+				556D751318DC54BA006ABDEA /* Landing_v2_dev.pdf */,
+				556D751418DC54BA006ABDEA /* Sliced */,
+			);
+			path = Landing_v2_dev;
+			sourceTree = "<group>";
+		};
+		556D751418DC54BA006ABDEA /* Sliced */ = {
+			isa = PBXGroup;
+			children = (
+				556D751518DC54BA006ABDEA /* App_Logo@2x.png */,
+				556D751618DC54BA006ABDEA /* Circle_Graphics@2x.png */,
+				556D751718DC54BA006ABDEA /* Mobility_Logo@2x.png */,
+				556D751818DC54BA006ABDEA /* Spin_Graphics.png */,
+			);
+			path = Sliced;
+			sourceTree = "<group>";
+		};
+		556D751918DC54BA006ABDEA /* Quiz_Screens */ = {
+			isa = PBXGroup;
+			children = (
+				556D753118DC60E1006ABDEA /* Home_Icon@2x.png */,
+				556D753218DC60E1006ABDEA /* Infosys_logo_white@2x.png */,
+				556D753318DC60E1006ABDEA /* Landing.jpg */,
+				556D753418DC60E1006ABDEA /* Quiz_Completed.jpg */,
+				556D753518DC60E1006ABDEA /* Quiz_Correct.jpg */,
+				556D753618DC60E1006ABDEA /* Quiz_Dev.pdf */,
+				556D753718DC60E1006ABDEA /* Quiz_Incorrect.jpg */,
+				556D753818DC60E1006ABDEA /* Quiz_Selection.jpg */,
+				556D753918DC60E1006ABDEA /* Quiz_Start.jpg */,
+				556D753A18DC60E1006ABDEA /* Quiz_Timeout.jpg */,
+				556D753B18DC60E1006ABDEA /* Quiz_Timer.jpg */,
+				556D753C18DC60E1006ABDEA /* Wheel_dev.pdf */,
+				556D753D18DC60E1006ABDEA /* Wheel.jpg */,
+			);
+			path = Quiz_Screens;
+			sourceTree = "<group>";
+		};
+		55768FF218DB2C25000A6599 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				552C597B18E0124B00DBDF7C /* WhiteIcons */,
+				556D751218DC54BA006ABDEA /* Landing_v2_dev */,
+				556D751918DC54BA006ABDEA /* Quiz_Screens */,
+				55109DE418DC342F00EDFC3E /* ProgressBar */,
+				55109DB918DBF8C500EDFC3E /* background-texture-smooth-golden-surface.png */,
+				55109DBA18DBF8C500EDFC3E /* background.jpg */,
+				55109DBB18DBF8C500EDFC3E /* bg.png */,
+				55109DBC18DBF8C500EDFC3E /* home_icon.png */,
+				55109DBD18DBF8C500EDFC3E /* icon.png */,
+				55109DBE18DBF8C500EDFC3E /* icon@2x.png */,
+				55109DBF18DBF8C500EDFC3E /* images.jpg */,
+				55109DC018DBF8C500EDFC3E /* quiz_icon.png */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		5576E4F718D98E13007D4E21 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5576E4F818D98E13007D4E21 /* CoredataManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5576E4F818D98E13007D4E21 /* CoredataManager */ = {
+			isa = PBXGroup;
+			children = (
+				5576E4F918D98E29007D4E21 /* QACoredataManager.h */,
+				5576E4FA18D98E29007D4E21 /* QACoredataManager.m */,
+			);
+			path = CoredataManager;
+			sourceTree = "<group>";
+		};
+		5576E4FC18D99176007D4E21 /* DataModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				5576E50618D9918E007D4E21 /* Player.h */,
+				5576E50718D9918E007D4E21 /* Player.m */,
+				5576E50318D9918E007D4E21 /* PlayerQuestionAnswers.h */,
+				5576E50418D9918E007D4E21 /* PlayerQuestionAnswers.m */,
+				5576E50018D9918E007D4E21 /* QuestionChoices.h */,
+				5576E50118D9918E007D4E21 /* QuestionChoices.m */,
+				5576E4FD18D9918D007D4E21 /* Categories.h */,
+				5576E4FE18D9918D007D4E21 /* Categories.m */,
+				552C597818E00C9100DBDF7C /* Questions.h */,
+				552C597918E00C9100DBDF7C /* Questions.m */,
+			);
+			path = DataModelClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5529B59D18D811790095E373 /* QuizApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5529B5D018D811790095E373 /* Build configuration list for PBXNativeTarget "QuizApp" */;
+			buildPhases = (
+				5529B59A18D811790095E373 /* Sources */,
+				5529B59B18D811790095E373 /* Frameworks */,
+				5529B59C18D811790095E373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuizApp;
+			productName = QuizApp;
+			productReference = 5529B59E18D811790095E373 /* QuizApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5529B5BD18D811790095E373 /* QuizAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5529B5D318D811790095E373 /* Build configuration list for PBXNativeTarget "QuizAppTests" */;
+			buildPhases = (
+				5529B5BA18D811790095E373 /* Sources */,
+				5529B5BB18D811790095E373 /* Frameworks */,
+				5529B5BC18D811790095E373 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5529B5C518D811790095E373 /* PBXTargetDependency */,
+			);
+			name = QuizAppTests;
+			productName = QuizAppTests;
+			productReference = 5529B5BE18D811790095E373 /* QuizAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5529B59618D811790095E373 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Deepu;
+				TargetAttributes = {
+					5529B59D18D811790095E373 = {
+						LastSwiftMigration = 0820;
+					};
+					5529B5BD18D811790095E373 = {
+						TestTargetID = 5529B59D18D811790095E373;
+					};
+				};
+			};
+			buildConfigurationList = 5529B59918D811790095E373 /* Build configuration list for PBXProject "QuizApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5529B59518D811790095E373;
+			productRefGroup = 5529B59F18D811790095E373 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5529B59D18D811790095E373 /* QuizApp */,
+				5529B5BD18D811790095E373 /* QuizAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5529B59C18D811790095E373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55109DC518DBF8C500EDFC3E /* icon.png in Resources */,
+				552C598618E0124B00DBDF7C /* cat_infy@2x.png in Resources */,
+				5529B5AE18D811790095E373 /* InfoPlist.strings in Resources */,
+				55109DC818DBF8C500EDFC3E /* quiz_icon.png in Resources */,
+				552C598B18E0124B00DBDF7C /* cat_sports@2x.png in Resources */,
+				556D754618DC60E1006ABDEA /* Quiz_Start.jpg in Resources */,
+				55109DC318DBF8C500EDFC3E /* bg.png in Resources */,
+				556D754818DC60E1006ABDEA /* Quiz_Timer.jpg in Resources */,
+				5529B60718D827270095E373 /* unchecked.png in Resources */,
+				556D754318DC60E1006ABDEA /* Quiz_Dev.pdf in Resources */,
+				5529B5E518D813EC0095E373 /* QALeaderboard.xib in Resources */,
+				5529B60818D827270095E373 /* unchecked@2x.png in Resources */,
+				556D754018DC60E1006ABDEA /* Landing.jpg in Resources */,
+				552C598518E0124B00DBDF7C /* cat_india@2x.png in Resources */,
+				556D752718DC54BA006ABDEA /* Spin_Graphics.png in Resources */,
+				55109DC118DBF8C500EDFC3E /* background-texture-smooth-golden-surface.png in Resources */,
+				5529B5F918D820850095E373 /* QAQuestionsViewController.xib in Resources */,
+				55109DD918DC0D0A00EDFC3E /* QAQuestionCustomCell.xib in Resources */,
+				556D754518DC60E1006ABDEA /* Quiz_Selection.jpg in Resources */,
+				55109DC718DBF8C500EDFC3E /* images.jpg in Resources */,
+				5529B5EA18D816FC0095E373 /* QALeaderboardCustomCell.xib in Resources */,
+				5529B5EF18D81B260095E373 /* QALaunchViewController.xib in Resources */,
+				5529B5B918D811790095E373 /* Images.xcassets in Resources */,
+				55109DC218DBF8C500EDFC3E /* background.jpg in Resources */,
+				556D754A18DC60E1006ABDEA /* Wheel.jpg in Resources */,
+				552EAA7318E1977A00E37DAF /* QAResultViewController.xib in Resources */,
+				556D752618DC54BA006ABDEA /* Mobility_Logo@2x.png in Resources */,
+				556D754418DC60E1006ABDEA /* Quiz_Incorrect.jpg in Resources */,
+				552C598A18E0124B00DBDF7C /* cat_puzzle@2x.png in Resources */,
+				552C598418E0124B00DBDF7C /* cat_gk@2x.png in Resources */,
+				556D752318DC54BA006ABDEA /* Landing_v2_dev.pdf in Resources */,
+				556D754718DC60E1006ABDEA /* Quiz_Timeout.jpg in Resources */,
+				552C598718E0124B00DBDF7C /* cat_mobl@2x.png in Resources */,
+				55109DE918DC342F00EDFC3E /* progress-bg.png in Resources */,
+				556D752518DC54BA006ABDEA /* Circle_Graphics@2x.png in Resources */,
+				556D754218DC60E1006ABDEA /* Quiz_Correct.jpg in Resources */,
+				556D752418DC54BA006ABDEA /* App_Logo@2x.png in Resources */,
+				5529B60618D827270095E373 /* checked@2x.png in Resources */,
+				5529B60518D827270095E373 /* checked.png in Resources */,
+				556D754918DC60E1006ABDEA /* Wheel_dev.pdf in Resources */,
+				556D753F18DC60E1006ABDEA /* Infosys_logo_white@2x.png in Resources */,
+				55109DEA18DC342F00EDFC3E /* progress-bg@2x.png in Resources */,
+				5529B5F418D81D610095E373 /* QACategoryViewController.xib in Resources */,
+				556D754118DC60E1006ABDEA /* Quiz_Completed.jpg in Resources */,
+				5529B5E018D812B00095E373 /* QAHomeScreenViewController.xib in Resources */,
+				55109DC418DBF8C500EDFC3E /* home_icon.png in Resources */,
+				55726C2118D9D5900071F62C /* QuizApp.sqlite in Resources */,
+				55109DEB18DC342F00EDFC3E /* progress-fg.png in Resources */,
+				552C598918E0124B00DBDF7C /* cat_music@2x.png in Resources */,
+				55109DEC18DC342F00EDFC3E /* progress-fg@2x.png in Resources */,
+				556D753E18DC60E1006ABDEA /* Home_Icon@2x.png in Resources */,
+				552C598818E0124B00DBDF7C /* cat_movies@2x.png in Resources */,
+				55109DC618DBF8C500EDFC3E /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5529B5BC18D811790095E373 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5529B5CB18D811790095E373 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5529B59A18D811790095E373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554FFAD518DB09D200376B91 /* OrderedDictionary.m in Sources */,
+				5538D68218DAD84C00502C1C /* CenterPointer.m in Sources */,
+				5529B5F818D820850095E373 /* QAQuestionsViewController.m in Sources */,
+				55109DCF18DC04CC00EDFC3E /* QAUtility.m in Sources */,
+				5529B5E918D816FC0095E373 /* QALeaderboardCustomCell.m in Sources */,
+				552C597A18E00C9100DBDF7C /* Questions.m in Sources */,
+				5576E4FB18D98E29007D4E21 /* QACoredataManager.m in Sources */,
+				5529B5B418D811790095E373 /* QAAppDelegate.m in Sources */,
+				5529B5DF18D812B00095E373 /* QAHomeScreenViewController.m in Sources */,
+				5529B60F18D844260095E373 /* UILabel+dynamicHeight.m in Sources */,
+				55109DD818DC0D0A00EDFC3E /* QAQuestionCustomCell.m in Sources */,
+				552EAA7218E1977A00E37DAF /* QAResultViewController.m in Sources */,
+				556D751118DC45B1006ABDEA /* AMProgressViewGradient.m in Sources */,
+				55109DE318DC33F100EDFC3E /* QAProgressBarView.m in Sources */,
+				5529B5B718D811790095E373 /* QuizApp.xcdatamodeld in Sources */,
+				5529B5FE18D8265A0095E373 /* RadioButton.m in Sources */,
+				5538D68118DAD84C00502C1C /* BackgroundTimer.m in Sources */,
+				5529B5F318D81D610095E373 /* QACategoryViewController.m in Sources */,
+				5538D68318DAD84C00502C1C /* Wheel.m in Sources */,
+				5576E4FF18D9918D007D4E21 /* Categories.m in Sources */,
+				5576E50518D9918E007D4E21 /* PlayerQuestionAnswers.m in Sources */,
+				5529B5B018D811790095E373 /* main.m in Sources */,
+				554FFACF18DAEDD500376B91 /* QASpinnerView.m in Sources */,
+				5576E50818D9918E007D4E21 /* Player.m in Sources */,
+				5529B5E418D813EC0095E373 /* QALeaderboard.m in Sources */,
+				5529B61318D84D210095E373 /* InsetUILabel.m in Sources */,
+				5576E50218D9918E007D4E21 /* QuestionChoices.m in Sources */,
+				5529B5EE18D81B260095E373 /* QALaunchViewController.m in Sources */,
+				556D751018DC45B1006ABDEA /* AMProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5529B5BA18D811790095E373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5529B5CD18D811790095E373 /* QuizAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5529B5C518D811790095E373 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5529B59D18D811790095E373 /* QuizApp */;
+			targetProxy = 5529B5C418D811790095E373 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5529B5AC18D811790095E373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5529B5AD18D811790095E373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5529B5C918D811790095E373 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5529B5CA18D811790095E373 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5529B5CE18D811790095E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unilever";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unilever";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5529B5CF18D811790095E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unilever";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unilever";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5529B5D118D811790095E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unilever";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizApp/QuizApp-Prefix.pch";
+				INFOPLIST_FILE = "QuizApp/QuizApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5529B5D218D811790095E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unilever";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizApp/QuizApp-Prefix.pch";
+				INFOPLIST_FILE = "QuizApp/QuizApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5529B5D418D811790095E373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizApp/QuizApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuizAppTests/QuizAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5529B5D518D811790095E373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuizApp.app/QuizApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuizApp/QuizApp-Prefix.pch";
+				INFOPLIST_FILE = "QuizAppTests/QuizAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5529B59918D811790095E373 /* Build configuration list for PBXProject "QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5529B5CE18D811790095E373 /* Debug */,
+				5529B5CF18D811790095E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5529B5D018D811790095E373 /* Build configuration list for PBXNativeTarget "QuizApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5529B5D118D811790095E373 /* Debug */,
+				5529B5D218D811790095E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5529B5D318D811790095E373 /* Build configuration list for PBXNativeTarget "QuizAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5529B5D418D811790095E373 /* Debug */,
+				5529B5D518D811790095E373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5529B5B518D811790095E373 /* QuizApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5529B5B618D811790095E373 /* QuizApp.xcdatamodel */,
+			);
+			currentVersion = 5529B5B618D811790095E373 /* QuizApp.xcdatamodel */;
+			path = QuizApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5529B59618D811790095E373 /* Project object */;
+}
